@@ -13,7 +13,7 @@ namespace StaticExerciseConsoleUI
 
         public static double CelsiusToFahrenheit(double celsius)
         {
-            return (celsius + 32) * 1.8;
+            return (celsius * 1.8) + 32;
         }
     }
     
